@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    cout << "Hello World!\n";
+int main() {
+	 for (int counter = 1;  counter <= 10; ++counter) {
+		  cout << counter << " ";
+	 }
 }
 
