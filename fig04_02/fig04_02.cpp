@@ -1,8 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    cout << "Hello World!\n";
+int main() {
+    int total{ 0 };
+    for (int number = 2; number <= 20; number += 2) {
+        total += number;
+    }
+    cout << "Sum is " << total << "\n";
 }
 
