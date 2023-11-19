@@ -3,6 +3,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+    int counter{ 1 };
+    do {
+        cout << counter << " ";
+        ++counter;
+    } while (counter <= 10);
+    cout << "\n";
 }
 
